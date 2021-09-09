@@ -18,8 +18,4 @@ class Event extends Model
         return $this->belongsToMany(Society::class);
     }
 
-    // public function setSocietiesAttribute($value)
-    // {
-    //     $societies = 
-    // }
 }
