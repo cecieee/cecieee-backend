@@ -18,4 +18,9 @@ class Event extends Model
         return $this->belongsToMany(Society::class);
     }
 
+    public function getImageAttribute($image)
+    {
+        return url('').'/storage/'.$image;
+    }
+
 }
